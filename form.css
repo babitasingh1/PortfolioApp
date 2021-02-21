@@ -1,0 +1,76 @@
+.img {
+  height: 200px;
+}
+
+#topHeader {
+  background-color: rgb(224, 224, 224);
+}
+
+#topHeader a {
+  color: rgb(29, 18, 10);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+img {
+  height: 50px;
+  width: 100px;
+}
+
+/* start footer */
+.fullFooter {
+  background-color: royalblue;
+}
+.top-footer p {
+  color: white;
+  font-weight: 600;
+}
+
+.top-footer h3 {
+  color: white;
+}
+
+.top-footer a {
+  color: white;
+  font-weight: 600;
+}
+
+.bottom-footer {
+  background-color: rgb(224, 224, 224);
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.imgheight {
+  height: 300px;
+}
+
+.images {
+  width: 250px;
+  height: 200px;
+}
+
+h3 {
+  color: rgb(21, 20, 119);
+  text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+  color: rgb(21, 20, 119);
+  text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.servicegrid {
+  margin-bottom: 6px;
+  padding-top: 0;
+}
+
+.portfoliopera {
+  color: orange;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 600;
+}
