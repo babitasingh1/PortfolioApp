@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <head>
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="form.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
@@ -23,12 +22,12 @@
                 </div>
             </div>
         </div>
-        
-        <div class="p-1 container-fluid" id="bottomHeader">
+       
+        <div class="p-1 container-fluid" id="bottomHeader">           
 
             <nav class="navbar navbar-dark navbar-expand-lg" style="background-color:#2574a9;">
                 <a class="navbar-brand" href="#">                    
-                    <img src="./images/homepageImg/logo.png" alt="logo">
+                    <img src="./images/homepageImg/logo.png" alt="logo"> 
                 </a>
                 <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler">
                     <span class="navbar-toggler-icon"></span>
@@ -36,13 +35,14 @@
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="default.html">Home</a>
+                            <a class="nav-link active" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="services.html">Services</a>
+                            <a class="nav-link" href="services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link"
+                                href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="aboutus.html">About Us</a>
@@ -52,85 +52,28 @@
                         </li>
                     </ul>
                 </div>
+            </nav>      
 
-            </nav>
         </div>
-
+        
     </header>
 
-    <section class="breadcrumbs-section">
-        <div class="container p-1 p-sm-3">
-            <div class="row">
-                <div class="col-12">
-                    <h3>Portfolio</h3>
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="default.html"></a>Home</li>
-                        <li class="breadcrumb-item active">Portfolio</li>
-                    </ol>
-                </div>
-            </div>
+    <!--Slide show-->
+    <div class="p-1 container-fluid">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 imgheight" src="./images/homepageImg/img1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imgheight " src="./images/homepageImg/img2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imgheight" src="./images/homepageImg/img3.png" alt="Third slide">
+          </div>
         </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p>A portfolio is a set of pictures by someone, or photographs of examples of their work, which they use when entering competitions or applying for work.
-                        There are some of our work shown in the below slides.
-                    </p>
-                    <hr />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container text-center">
-            <div class="row ">
-                <div class="col-12">
-                    <h3 style="padding-bottom: 4px;"> Some of Our Work</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="./images/portfolioImg/img1.png"
-                        alt="img1" class="images">
-                    <h5>ABC Company</h5>
-                    <p class="portfoliopera">- It's about bringing your skills to your work.</p>
-
-                </div>
-                <div class="col-md-4">
-                    <img src="./images/portfolioImg/img2.png"
-                        alt="img2" class="images">
-                    <h5>RAMS Portfolio</h5>
-                    <p class="portfoliopera">- RAMS Portfolio</p>
-
-                </div>
-                <div class="col-md-4">
-                    <img src="./images/portfolioImg/img3.png"
-                        alt="img3" class="images">
-                    <h5>Tech Solutions</h5>
-                    <p class="portfoliopera">- Latest Tech solutions</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="./images/portfolioImg/img4.png" alt="img4" class="images">
-                    <h5>XYZ Organization</h5>
-                    <p class="portfoliopera">- XYZ Organization technology</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="./images/portfolioImg/img5.png"
-                        alt="img5" class="images">
-                    <h5>Portfolio Tech</h5>
-                    <p class="portfoliopera">- Best portfolio technology</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="./images/portfolioImg/img6.png" alt="img6"
-                        class="images">                        
-                    <h5>Tech revolution</h5>
-                    <p class="portfoliopera">Here, you'll match your ingenuity with the latest technology</p>
-                </div>
-            </div>
-        </div>        
-    </section>
+      </div>
+    </div>
 
     <footer class="fullFooter">
         <div class="p-md-3 p-1 container top-footer">
@@ -178,6 +121,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
