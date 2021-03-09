@@ -10,5 +10,8 @@ A Bootstrap App
 4. This is a fully responsible application.
 
 ## Available Scripts
-You need to open the default.html in your browser
+You need to open the index.html in your browser
+
+## Netlify link
+https://60479b565b918800cb9838dd--company-mainpage.netlify.app
 
